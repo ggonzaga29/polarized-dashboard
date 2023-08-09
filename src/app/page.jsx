@@ -1,12 +1,11 @@
-'use client';
-
-import { Button } from '@/components/ui/button';
-import { Command } from '@phosphor-icons/react';
-
 export default function Home() {
   return (
-    <main className="min-h-screen flex-col items-center justify-between p-24 space-y-5">
-     
-    </main>
+    <div className="min-h-screen w-full flex">
+      <aside className="flex-1 max-w-[300px] border-r border-r-shade-20">&nbsp;</aside>
+      <div className="">
+        <header></header>
+        <main className="h-full">&nbsp;</main>
+      </div>
+    </div>
   );
 }
