@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import ThemeToggle from '@/components/theme-toggle';
+import { SignIn } from '@phosphor-icons/react';
 import * as Form from '@radix-ui/react-form';
 
 const Signin = () => {
@@ -17,7 +18,7 @@ const Signin = () => {
       </div>
       {/* Spacer Div */}
       <div className="w-full"></div>
-      <Card className="w-full max-w-[670px] p-8 md:p-16 rounded-xl shadow-md flex-col justify-center items-center">
+      <Card className="w-full max-w-[670px] px-2 py-8 md:p-16 rounded-xl shadow-md flex-col justify-center items-center">
         <CardContent className="w-full">
           <div className="text-center space-y-2">
             <h1 className="text-2xl font-bold">Sign In</h1>
@@ -25,7 +26,7 @@ const Signin = () => {
               Sign in to your account to continue.
             </p>
           </div>
-          <div class="flex gap-2 w-full my-6">
+          <div class="flex gap-2 w-full my-6 flex-col md:flex-row">
             <Button variant="outline" className="w-full text-sm font-light">
               <Image
                 src="/google.svg"
@@ -70,7 +71,9 @@ const Signin = () => {
               </span>
             </div>
             <div>
-              <Button className="w-full">Sign in</Button>
+              <Button className="w-full">
+								<SignIn className='w-5 h-5 mr-2' />
+								Sign in</Button>
             </div>
           </div>
         </CardContent>
