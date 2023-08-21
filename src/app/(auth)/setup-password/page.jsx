@@ -13,7 +13,7 @@ import ThemeToggle from '@/components/theme-toggle';
 
 import { PencilSimple } from '@phosphor-icons/react';
 
-const Forgot = () => {
+const SetupPassword = () => {
   return (
     <main className="w-full h-full flex flex-col justify-between items-center py-6 px-3 select-none">
       <div className="absolute top-5 left-5">
@@ -91,4 +91,4 @@ const Forgot = () => {
   );
 };
 
-export default Forgot;
+export default SetupPassword;
