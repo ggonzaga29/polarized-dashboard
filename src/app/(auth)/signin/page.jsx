@@ -67,7 +67,7 @@ const Signin = () => {
             </div>
             <div className="text-right">
               <span className="text-sm cursor-pointer text-primary">
-                Forgot Password?
+                <Link href="/forgot">Forgot Password?</Link>
               </span>
             </div>
             <div>
