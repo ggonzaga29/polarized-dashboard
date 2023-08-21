@@ -11,7 +11,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import PasswordInput from '@/components/password-input';
 import ThemeToggle from '@/components/theme-toggle';
 
-import { UserPlus } from '@phosphor-icons/react';
+import { PencilSimple } from '@phosphor-icons/react';
 
 const Forgot = () => {
   return (
@@ -67,8 +67,8 @@ const Forgot = () => {
             </div>
             <div>
               <Button className="w-full mt-4">
-                <UserPlus className="h-5 w-5 mr-2" />
-                Create an account
+                <PencilSimple className="h-5 w-5 mr-2" />
+                Setup new password
               </Button>
             </div>
           </div>
